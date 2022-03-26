@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_beranda">
+
+    <fragment
+        android:id="@+id/navigation_beranda"
+        android:name="com.example.futid.ui.beranda.BerandaFragment"
+        android:label="Beranda"
+        tools:layout="@layout/fragment_beranda" />
+
+    <fragment
+        android:id="@+id/navigation_lapangan"
+        android:name="com.example.futid.ui.lapangan.LapanganFragment"
+        android:label="Lapangan"
+        tools:layout="@layout/fragment_lapangan" />
+
+    <fragment
+        android:id="@+id/navigation_pemesanan"
+        android:name="com.example.futid.ui.pemesanan.PemesananFragment"
+        android:label="Pemesanan"
+        tools:layout="@layout/fragment_pemesanan" />
+</navigation>
